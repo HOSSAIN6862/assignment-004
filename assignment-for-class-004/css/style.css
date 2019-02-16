@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+}
+body{
+	background: url(../img/bg.2.jpg);
+	background-size: cover;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    height: 130px;
+}
+
+.logo {
+    background: rgba(0,0,0,0.5);
+    height: 125px;
+    width: 40%;
+    float: left;
+    border-bottom-left-radius: 20px;
+}
+.menu-bar {
+    height: 125px;
+    background: rgba(0,165,0,0.3);
+    width: 60%;
+    float: left;
+    border-bottom-right-radius: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 37px 26px 15px 0px;}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #ffffff;
+
+}
+.container-2{
+    height: 500px;
+    width: 1140px;
+    background-size: yellow  ;
+    float: right;
+    margin-top: 32px;
+}
+.text{
+    width: 50%;
+    background: transparent;
+    height: 500px;
+    float: left;
+
+}
+
+.register-box{
+    width: 40%;
+    background: green;
+    height: 400px;
+    float: left;
+    margin-left: 85px;
+    margin-top: 65px;
+    border-radius: 4px;
+
+
+}
+.text-2{
+    height: 115px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 65px;
+    line-height: 45px;
+
+}
+span{ 
+    color: blue;
+    font-size: 40px;
+    margin-left: 12px;
+  
+}
+.ul-list{
+    list-style: circle!important;
+    color: white;
+    font-size: 20px;
+    line-height: 0px;
+    margin-left: 65px;
+
+}
+
+nav div form h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 22px;
+}
+input {
+    border-radius: 7px;
+    width: 90%;
+    height: 25px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px 10px 10px 15px;
+}
+.btn{
+    height: 50px;
+    font-size: 28px;
+    margin: 16px 100px;
+    width: 240px;
+    transition: 0.8s ease;
+}
+input.btn:hover {
+    background: orange;
+    color: #4e4747;
+    border-radius: 20px;
+}
